@@ -1,0 +1,487 @@
+    /*===============================*/
+    /*===== Mobile and iPad view ====*/
+    /*===============================*/
+@media screen and (max-width: 3072px) and (min-width: 0px) {
+
+    /*===============================*/
+    /*========= Colors starts =======*/
+    /*===============================*/
+    body, #about .image, footer .social, footer .social div {
+        background-color: #E6E6E6 !important;
+    }
+    
+    li.active a {
+        border-bottom: 4px solid #00B300 !important; 
+    }
+    
+    .green-arrow {
+        border-color: transparent transparent transparent #00B300 !important;
+    }
+    
+    #helloLabel, #onVacation, .social {
+        background: #00B300;
+    }
+    
+    .xptab {
+        border-top: 7px solid #00B300;
+    }
+    
+    .bullet {
+        background-color: #00B300;
+    }
+    
+    .bold-text {
+        color: #00B300;
+    }
+    
+    nav {
+        background-color: #4D5A66;
+    }
+    
+    #about {
+        background: linear-gradient(180deg, #4D5A66 80%, #E6E6E6 20%) !important;
+    }
+    /*======= Colors ends ===========*/
+
+    /*===============================*/
+    /*========= Common starts =======*/
+    /*===============================*/
+    body {
+        margin:0;
+        position: relative; 
+    }
+    
+    section {
+        margin: 30px auto 0;
+        width: 60%;
+    }
+    
+    .social div {
+        cursor: pointer;
+    }
+    
+    .no-margin {
+        margin: 0px !important;
+    }
+    /*======= Common ends ===========*/
+    
+    /*===============================*/
+    /*======= Navbar starts =========*/
+    /*===============================*/
+    nav {
+        padding-top: 20px;
+    }
+
+    .navbar-brand h3{
+        margin: 0px 0px 0px 15px;
+        color: white;
+    }
+
+    .pull-right button {
+        display: block;
+    }
+
+    .navbar-brand, .nav li a {
+        color: white;
+    }
+
+    .navbar-brand:hover, .nav li a:hover { 
+        background-color: #7C8D9C !important;
+        color: white !important;
+    }
+    /*========== Navbar ends ========*/
+    
+    /*===============================*/
+    /*======== Navbar button starts==*/
+    /*===============================*/
+    #nav-button {
+        border-radius: 0px;
+        top: -8px;
+        border: 0.5px solid #7C8D9C;
+        padding: 17px 15px;
+    }
+
+    #nav-button span{
+        margin-bottom: 4px;
+        border-radius: 0px;
+        width: 15px;
+        height: 0px;
+        border: 1.5px solid white;
+    }
+
+    #nav-button span:last-child {
+        margin-bottom: 0px;
+    }
+    /*=== Navbar button starts ======*/
+    
+    /*===============================*/
+    /*===== About Section starts ====*/
+    /*===============================*/
+    #about {
+        overflow: auto;
+        width: 100%;
+        margin: 40px 0px 0px 0px;
+    }
+
+    .innerAbout {
+        width: 60%;
+        margin-top: 70px;
+        background: white;
+    }
+
+    #about .image, #about .dev-info {
+        padding: 0px 30px;
+        height: auto;
+    }
+
+    #about .image {
+        height: 326px;
+    }
+
+    .outer-row {
+        padding: 40px 60px;
+    }
+
+    .dev-info h3 {
+        margin-top: 0px;
+    }
+
+    .dev-info label {
+        padding: 5px;
+    }
+
+    hr {
+        border-top: 2px solid #ccc !important;
+    }
+
+    .green-arrow {
+        position: absolute;    
+        left: 8%;
+        top: 9%;
+        display: block !important;
+    }
+
+    #helloLabel {
+        border-radius: 0px;
+    }
+    
+    .hello-box {
+        padding-top: 15px;
+        padding-bottom: 15px
+    }
+
+    .social .fa {
+        font-size: 17px; 
+        color: white;
+        padding: 20px 15px;
+    }
+
+    .social {
+        margin: 0px 0px !important;
+        height: 65px;
+    }
+
+    .name {
+        font-weight: 400;
+    }
+    
+    .dev-desc {
+        padding-left: 40px;
+    }
+    /*======= About Section ends ====*/
+
+
+    /*===============================*/
+    /*== Experience Section starts ==*/
+    /*===============================*/
+
+    .exp-label {
+        left: 200px;
+    }
+
+    #experience .leftxp, #experience .rightxp {
+        padding: 20px 40px;
+        min-height: 400px;
+        padding-top: 0px;
+    }
+
+    #experience .leftxp {
+        padding-left: 10px; 
+    }
+
+    #experience .rightxp {
+        padding-right: 10px;
+        left: -5%;
+    }
+
+    .rightxp {
+        top: 30px;
+    }
+
+    .leftxp:after {
+        content:"";
+        position: absolute;
+        z-index: -1;
+        top: 10%;
+        bottom: 20%;
+        left: 100%;
+        border-left: 4px solid #80ff80;
+        display: none;
+    }
+
+    .xptab {
+        -webkit-box-shadow: 0px 0px 89px -22px rgba(0,0,0,0.56);
+        -moz-box-shadow: 0px 0px 89px -22px rgba(0,0,0,0.56);
+        box-shadow: 0px 0px 89px -22px rgba(0,0,0,0.56);
+        position: inherit;
+        margin: 30px auto 0;
+        background: white;
+        padding: 20px 20px 30px 20px;
+        width: 105%;
+    }
+
+    .right-arrow {
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 15px 0 15px 8px;
+        border-color: transparent transparent transparent white;
+        display: none;
+    }
+
+    .left-arrow {
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 15px 8px 15px 0;
+        border-color: transparent white transparent transparent;
+        display: none;
+    }
+
+    .xptab .right-arrow {
+        position: absolute;
+        left: 100%;
+        top: 15%;
+    }
+
+    .xptab .left-arrow {
+        position: absolute;
+        right: 100%;
+        top: 15%;
+    }
+
+    .bullet {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 10px;
+        height: 10px;
+        display: block;
+        content: '';
+        border-radius: 8px;
+    }
+
+    .right-arrow .bullet {
+        top: -5px;
+        left: 29px;
+    }
+
+    .left-arrow .bullet {
+        top: -5px;
+        left: -35px;
+    }
+
+    .gray-text {
+        color: gray;
+    }
+
+    .small-label p {
+        font-size: 15px;
+        padding-top: 2px;
+    }
+
+    .bold-text {
+        font-weight: 600;
+        font-size: 15px;
+    }
+
+    .xp-head {
+        margin: 10px;
+        color: dimgray;
+    }
+
+    .xp-pos, .xp-desc {
+        color: gray;
+        font-size: 15px;
+        padding-top: 5px;
+    }
+
+    .xp-desc {
+        padding-top: 10px;
+    }
+    /*=== Experience Section ends ===*/
+
+    /*===============================*/
+    /*== Contact Section starts =====*/
+    /*===============================*/
+    .info .contact {
+        padding: 10px 0px;
+    }
+    .info .detail {
+        padding: 10px 0px;
+    }
+    
+    .contact .detail {
+        padding: 0px !important;
+    }
+
+    .contact input, .contact textarea {
+        border: 0;
+        outline: 0;
+        width: 100%;
+        background: transparent;
+        border-bottom: 1px solid grey;
+        margin-top: 20px;
+    }
+
+    .fill button {
+        margin-top: 20px;
+        width: 30%;
+    }
+
+    #contact-label {
+        margin-top: 0px;
+        font-size: 22px;
+        color: dimgray;
+        font-weight: 500;
+    }
+
+    .contact-form {
+        padding: 40px 40px;
+    }
+
+    .contact .fill {
+        -webkit-box-shadow: 0px 0px 89px -22px rgba(0,0,0,0.56);
+        -moz-box-shadow: 0px 0px 89px -22px rgba(0,0,0,0.56);
+        box-shadow: 0px 0px 89px -22px rgba(0,0,0,0.56);
+        padding: 40px 50px;   
+        background: white;
+    }
+
+    .detail .show {
+        -webkit-box-shadow: 0px 0px 89px -22px rgba(0,0,0,0.56);
+        -moz-box-shadow: 0px 0px 89px -22px rgba(0,0,0,0.56);
+        box-shadow: 0px 0px 89px -22px rgba(0,0,0,0.56);
+        background: white;
+        padding: 0px;
+    }
+
+    #contact-info-label {
+        padding: 40px 5px 40px 55px;
+    }
+
+    #contact-info-label p,#contact-info-desc p {
+        margin-bottom: 15px;
+        font-size: initial;
+    }
+
+    #contact-info-desc {
+        padding: 40px 20px;
+    }
+
+    .map {
+        height: 218px;
+    }
+    /*==== Contact Section ends =====*/
+
+    /*===============================*/
+    /*======= Footer starts =========*/
+    /*===============================*/
+    footer {
+        margin: 30px auto 0;
+        width: 60%;
+        margin-bottom: 2%;
+    }
+
+    footer .social div {
+        padding: 0px;
+    }
+    /*======= Footer starts =========*/
+
+    /*===============================*/
+    /*======== Extra starts =========*/
+    /*===============================*/
+    .download {
+        padding: 30px;
+    }
+
+    .download button{
+        -webkit-box-shadow: 0px 0px 89px -22px rgba(0,0,0,0.56);
+        -moz-box-shadow: 0px 0px 89px -22px rgba(0,0,0,0.56);
+        box-shadow: 0px 0px 89px -22px rgba(0,0,0,0.56);
+    }
+    /*======= Extra starts =========*/
+
+
+
+
+    a[href^="http://maps.google.com/maps"] {
+        display:none !important;
+    }
+
+    a[href^="https://maps.google.com/maps"] {
+        display:none !important;
+    }
+
+
+
+    .high-text {
+        font-size: 30px;
+        font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    }
+    
+}
+
+    /*===============================*/
+    /*======== Desktop view =========*/
+    /*===============================*/
+@media screen and (max-width: 3072px) and (min-width: 1024px) {
+    
+    .right-arrow, .left-arrow, .leftxp:after {
+        display: block;
+    }
+    
+    .xptab {
+        width: 100%;
+    }
+    
+    #experience .rightxp {
+        left: 0%;
+    }
+    
+    .name {
+        font-weight: 600;
+    }
+    
+    .green-arrow {
+        top: 4%;
+        display: block;
+    }
+    
+    .info {
+        margin-top: 0%;
+    }
+    
+    
+    .info .contact {
+        padding-right: 10px;
+    }
+
+    .info .detail {
+        padding-left: 10px;
+    }
+    
+    .hello-box {
+        padding-top: 0px;
+    }
+}
